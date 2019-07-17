@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#12D6C0</color>
+    <color name="colorPrimaryDark">#00C2AC</color>
+    <color name="colorAccent">#FF4402</color>
+    <color name="sendBubble">#FFE88E</color>
+    <color name="receiveBubble">#FF8F8C</color>
+    <color name="colorPrimaryBG">#C1FCF5</color>
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BetterThanLecture</string>
+    <string name="open_chat">Group Chat</string>
+    <string name="single_chat">Single Chat</string>
+    <string name="open_voice_chat">Voice Chat</string>
+    <string name="activity_chat">ChatActivity</string>
+    <string name="send_message">Send</string>
+    <string name="payload_test_message">Hello, this is a payload test message!</string>
+    <string name="message_hint">Enter a message...</string>
+    <string name="connection_state">State:</string>
+    <string name="betterThanLecture_introduction">Welcome to BetterThanLecture</string>
+    <string name="enter_name_hint">Enter a name...</string>
+    <string name="open_chat_history">Chat History</string>
+    <string name="vertical_more">menu</string>
+    <string name="more">More</string>
+    <string name="clear_message_history">Clear chat history</string>
+    <string name="receiveBubbke_EPName">endpointName</string>
+    <string name="receiveBubble_Textmessage">textMessage</string>
+    <string name="receiveBubble_Timestamp">timeStamp</string>
+    <string name="sendBubble_EPName">endpointName</string>
+    <string name="sendBubble_Textmessage">textMessage</string>
+    <string name="sendBubble_Timestamp">timeStamp</string>
+    <string name="placeholder">placeholder</string>
+    <string name="empty_string"></string>
+    <string name="debug">Debug</string>
+    <string name="connected_devices">Connected devices:</string>
+    <string name="debug_log">Debug Log:</string>
+    <string name="video_button">Video Button</string>
+    <string name="unmute_mic">Unmute microphone</string>
+    <string name="mute_mic">Mute microphone</string>
+    <string name="unmute_audio">Unmute audio</string>
+    <string name="mute_audio">Mute audio</string>
+</resources>

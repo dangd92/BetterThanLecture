@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/recieve_video_msg_bubble"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/ImageView_play_video"
+                    android:layout_width="141dp"
+                    android:layout_height="81dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/empty_string"
+                    android:src="@drawable/ic_baseline_play_circle_outline_24px"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/timeStamp" />
+
+
+                <TextView
+                    android:id="@+id/endpointName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="20dp"
+                    android:text="@string/receiveBubbke_EPName"
+                    android:textColor="#202020"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/timeStamp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="SmallSp" />
+
+                <TextView
+                    android:id="@+id/timeStamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/receiveBubble_Timestamp"
+                    android:textColor="#808080"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="SmallSp" />
+
+        </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

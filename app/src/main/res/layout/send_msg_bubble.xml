@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/send_msg_bubble"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/endpointName"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+            android:text="@string/sendBubble_EPName"
+            android:textColor="#202020"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toStartOf="@+id/timeStamp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SmallSp" />
+
+
+        <TextView
+            android:id="@+id/textMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="3dp"
+            android:text="@string/sendBubble_Textmessage"
+            android:textAlignment="textEnd"
+            android:textColor="#202020"
+            android:textSize="18sp"
+            android:textIsSelectable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timeStamp" />
+
+        <TextView
+            android:id="@+id/timeStamp"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/sendBubble_Timestamp"
+            android:textColor="#808080"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SmallSp" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
